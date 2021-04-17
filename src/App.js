@@ -54,7 +54,7 @@ const App = () => {
         </nav>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 text-ctn px-5">
-          <div className="text-center flex flex-col items-center justify-center lg:col-span-2 space-y-9">
+          <div className="text-center flex flex-col items-center justify-center lg:col-span-2 space-y-8">
             <h1 className="text-7xl font-extrabold text-blue-500 px-5">
               Stay updated with <span className="bg-blue-200 px-2">twitter</span> trends in your location.
             </h1>
@@ -65,15 +65,15 @@ const App = () => {
                     ? 'flex items-center justify-center font-light space-x-4 text-sm text-black transition-all ease-in-out duration-100'
                     : 'flex items-center justify-center font-light space-x-4 text-sm text-white transition-all ease-in-out duration-100'
                 }>
-                <li className="flex items-center">
+                <li className="flex items-center text-left">
                   <Check className="mr-1 text-blue-300" />
                   No authentication
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center text-left">
                   <Check className="mr-1 text-blue-300" />
                   Search twitter
                 </li>
-                <li className="flex items-center">
+                <li className="flex items-center text-left">
                   <Check className="mr-1 text-blue-300" />
                   Light + Dark themes
                 </li>
@@ -100,8 +100,8 @@ const App = () => {
         <footer
           className={
             theme === 'light'
-              ? 'w-full flex items-center justify-end px-7 py-2 mt-4 text-black font-normal transition-all ease-in-out duration-100'
-              : 'w-full flex items-center justify-end px-7 py-2 mt-4 text-white font-normal transition-all ease-in-out duration-100'
+              ? 'w-full flex items-center justify-end px-7 py-2 mt-3 mb-1 text-black font-normal transition-all ease-in-out duration-100'
+              : 'w-full flex items-center justify-end px-7 py-2 mt-3 mb-1 text-white font-normal transition-all ease-in-out duration-100'
           }>
           <div className="space-x-8">
             <a href="/" className="text-sm opacity-70 hover:opacity-60 transition-all ease-in-out">

@@ -47,9 +47,15 @@
 
 @media (max-width: 1023px) {
   .img-ctn img {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  footer {
+    margin: 1.5rem 0 !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

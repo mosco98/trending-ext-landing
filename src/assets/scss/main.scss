@@ -30,7 +30,7 @@ h1 {
 .img-ctn {
   img {
     @media (max-width: 1023px) {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       margin-right: auto;
       margin-left: auto;
     }
@@ -41,4 +41,10 @@ h1 {
   // @media (max-width: 767px) {
   //   margin-top: 13rem !important;
   // }
+}
+
+footer {
+  @media (max-width: 1023px) {
+    margin: 1.5rem 0 !important;
+  }
 }
