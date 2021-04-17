@@ -1,0 +1,55 @@
+.page-ctn {
+  height: 100vh !important;
+}
+
+@media (max-width: 767px) {
+  .page-ctn {
+    height: 100vh !important;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 1219px) {
+  h1 {
+    font-size: 5rem !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media (max-width: 957px) {
+  h1 {
+    font-size: 3.2rem !important;
+  }
+}
+
+@media (max-width: 611px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 544px) {
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 2.7rem !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .img-ctn img {
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
