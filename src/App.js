@@ -100,8 +100,8 @@ const App = () => {
         <footer
           className={
             theme === 'light'
-              ? 'w-full flex items-center justify-end px-7 py-2 mt-2 mb-1 text-black font-normal transition-all ease-in-out duration-100'
-              : 'w-full flex items-center justify-end px-7 py-2 mt-2 mb-1 text-white font-normal transition-all ease-in-out duration-100'
+              ? 'w-full flex items-center justify-end px-7 py-2 text-black font-normal transition-all ease-in-out duration-100'
+              : 'w-full flex items-center justify-end px-7 py-2 text-white font-normal transition-all ease-in-out duration-100'
           }>
           <div className="space-x-8">
             <a href="/" className="text-sm opacity-70 hover:opacity-60 transition-all ease-in-out">
